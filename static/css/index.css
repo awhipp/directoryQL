@@ -1,0 +1,127 @@
+/** Standard HTML **/
+
+body{
+  background-color: #eee;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fefefe;
+}
+
+h1, h2, h3, h4 {
+    text-align:center;
+    color: white;
+}
+
+table{
+    border: 1px solid black;
+}
+
+thead{
+    background-color: #e7e7e7;
+    border: white 1px solid;
+}
+
+th{
+    border: 1px outset;
+    text-align: center;
+}
+
+/** Sections **/
+
+.content {
+    padding-top:1em;
+}
+
+.title {
+    border-bottom: 1px solid white;
+    padding: 90px 0 30px 0;
+    margin-bottom: 0.5em;
+    background-color: rgba(0,0,0,0.75);
+}
+
+/** End Sections **/
+
+/** Custom Classes **/
+
+.save-data > div{
+    width:100%;
+}
+
+.save-row{
+    margin-bottom: 2%;
+}
+
+.past-query{
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: rgba(0,0,0,0.75);
+  padding: 0.5em;
+}
+
+.alert-success, .alert-warning {
+    display: none;
+}
+
+/** End Custom Classes **/
+
+
+/** BootStrap **/
+
+.row{
+    padding-bottom: 1em;
+}
+
+.container .row .col-md-9 {
+    padding-top: 1em;
+}
+
+.container .row .col-md-3 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+#query_span, #query{
+    font-size: 1.5em;
+    height: 100%;
+}
+
+/** End BootStrap **/
+
+/** DataTables **/
+
+.dataTables_wrapper{
+    width: 100%;
+    background-color: transparent;
+}
+
+.dataTables_info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.dataTables_paginate.paging_simple_numbers {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.dataTables_length, .dataTables_filter{
+  display: none;
+}
+
+#previousTables_wrapper{
+    padding: 0;
+}
+
+/** End DataTables **/
+
+
+/** NavBar **/
+
+/** End NavBar **/
